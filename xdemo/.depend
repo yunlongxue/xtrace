@@ -1,0 +1,2 @@
+xdump.o: xdump.c /tmp/Q6gbbM7M.h
+xmultiProcess.o: xmultiProcess.c /tmp/Q6gbbM7M.h
