@@ -26,9 +26,13 @@
 #示例：
   * 示例源码在xdemo目录中，该目录同时包含了一个已编译好的xtrace
 ```sh    
-  cc xdump.c -o xdump;    ./xdump
+  cd xdemo
+  xtrace -o xdump.c #open xtrace
+  cc xdump.c -o xdump;
+  ./xdump
+  xtrace -c xdump.c #close xtrace
 ```    
-  * 输出：
+  * xdump输出：
 ```sh
 XTRACE|27142|Process (ppid=27065) start at: 2015-3-3:21-32-5
 XTRACE|27142|xdump.c-15-main|1|0s|0s-523us|
