@@ -1,4 +1,5 @@
 平台： linux
+
 软件:  xdemo/xtrace
   
 手册：
@@ -21,7 +22,8 @@
 示例：
     示例源码在xdemo目录中，该目录同时包含了一个已编译好的xtrace
     cc xdump.c -o xdump;    ./xdump
-    
+    xdump输出：
+------------------------------------------------------------------------------------------------
 XTRACE|27142|Process (ppid=27065) start at: 2015-3-3:21-32-5
 XTRACE|27142|xdump.c-15-main|1|0s|0s-523us|
 XTRACE|27142|xdump.c-16-main|1|0s|0s-160us|
@@ -32,7 +34,7 @@ XTRACE|27142|xdump.c-19-main|1|2s|0s-129us|
 XTRACE|27142|xdump.c-20-main|1|2s|0s-145us|
 XTRACE|27142|xdump.c-19-main|2|2s|0s-126us|
 Floating point exception (core dumped)
-
+------------------------------------------------------------------------------------------------
     根据输出信息：
     1. 程序开始时间：2015-3-3:21-32-5
           程序开始运行到完成，使用时间：2s
