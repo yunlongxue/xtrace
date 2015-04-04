@@ -1,4 +1,4 @@
-#平台： linux
+#平台:  Linux
 
 #软件:  xdemo/xtrace
 
@@ -7,6 +7,7 @@
   xtrace -o src_file: 打开对c/c++源代码src_file调试
   xtrace -c src_file: 关闭对c/c++源代码src_file调试
 ```
+```sh 
   1. xtrace是源码级调试器：
         * 支持c/c++源代码
         * 支持ESQL/C等嵌入式C源码
@@ -20,6 +21,7 @@
         * 2.2： xtrace是嵌入式源代码调试器，gdb是交互式调试器
               用xtrace可以调试ESQL/C， pro*c源码，gdb在调试时，如果使用步进调试，遇到EXEC SQL...语句， 会卡住。
               用xtrace可以在不改变程序时序情况下，调试多进程/多线程程序。 使用gdb，在attach到进程过程中，由于操作的延时，则可能改变进程的时序，导致影响结果的准确性。
+```                
 
 #示例：
   * 示例源码在xdemo目录中，该目录同时包含了一个已编译好的xtrace
