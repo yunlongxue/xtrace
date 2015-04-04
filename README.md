@@ -1,6 +1,5 @@
-平台：
-  linux
-  xdemo/xtrace: 已编译好的xtrace
+平台： linux
+软件:  xdemo/xtrace
   
 手册：
   xtrace -o src_file: 打开对c/c++源代码src_file调试
