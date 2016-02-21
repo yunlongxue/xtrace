@@ -1,4 +1,4 @@
-#平台:  Linux
+#平台:  Linux64
 
 #软件:  xdemo/xtrace
 
