@@ -2,6 +2,8 @@
 
 #软件:  xdemo/xtrace
 
+#docker��https://hub.docker.com/r/xueyunlong/xtrace/
+
 #手册：
 ```sh
   xtrace -o src_file: 打开对c/c++源代码src_file调试
